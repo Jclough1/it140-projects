@@ -24,10 +24,12 @@ WHILE game_is_running
     ELSE
         OUTPUT "Invalid direction. Please try again."
     END IF
+    IF player reaches the required ending THEN
+        SET game_is_running TO FALSE
+    END IF
 END WHILE
 
-# TODO 5: Describe what happens when the movement command is invalid.
-# Include the output the player should receive.
 
-# TODO 6: Show how movement fits into repeated gameplay.
-# The final game continues accepting commands until a required ending occurs.
+
+
+
