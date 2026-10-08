@@ -25,7 +25,7 @@ START get_item
     
     ELSE
 
-    OUTPUT "That item is not available in the room."
+        OUTPUT "That item is not available in the room."
 
     END IF
 
