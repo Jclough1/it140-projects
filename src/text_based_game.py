@@ -24,21 +24,23 @@ def show_status(current_room, inventory, rooms):
     
     # TODO: Show the current-room item when one is available.
     if "item" in rooms[current_room]:
-        print("You see:", rooms[current_room] ["item"]
+        print("You see:", rooms[current_room] ["item"])
     
 
 
 def main():
     """Run the main gameplay loop."""
     # TODO: Create the full room/item dictionary from your Project One map.
-    rooms = {
+    rooms = "Study Room": {'west": "Kitchen, "north": "Living Room"
     }
 
-    # TODO: Set the player's starting room.
+    current_room = "Study Room"
 
-    # TODO: Create the player's inventory.
+    inventory = []
+    show_instructions()
+    while True:
 
-    # TODO: Call the instruction function at the appropriate time.
+    
 
     # TODO: Create the gameplay loop.
     # Within the loop:
