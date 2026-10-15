@@ -1,11 +1,17 @@
 """Project Two starter for the student's text-based adventure game."""
 
-# TODO: Add the full-name comment required by Project Two directions.
 
+# TODO: Add the full-name comment required by Project Two directions.
+# Jazmine Clough
 
 def show_instructions():
     """Display the game objective and available commands."""
-    # TODO: Print instructions that match your game and commands.
+    # TODO:
+    print("The Hangover in my house")
+    print("Collect all 6 items without entering the living room")
+    print("Move commands:go north, go south, go east, go west")
+    print("Collect items: get item name")
+    
     pass
 
 
