@@ -31,6 +31,8 @@ def show_status(current_room, inventory, rooms):
 def main():
     """Run the main gameplay loop."""
     # TODO: Create the full room/item dictionary from your Project One map.
+    rooms = {
+    }
 
     # TODO: Set the player's starting room.
 
