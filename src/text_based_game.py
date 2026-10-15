@@ -12,15 +12,20 @@ def show_instructions():
     print("Move commands:go north, go south, go east, go west")
     print("Collect items: get item name")
     
-    pass
+    
 
 
 def show_status(current_room, inventory, rooms):
     """Display the player's current game status."""
-    # TODO: Show the current room.
-    # TODO: Show the current inventory.
+    print("You are in the", current_room)
+    
+   # Show the current inventory.
+    print("Inventory:", inventory)
+    
     # TODO: Show the current-room item when one is available.
-    pass
+    if "item" in rooms[current_room]:
+        print("You see:", rooms[current_room] ["item"]
+    
 
 
 def main():
