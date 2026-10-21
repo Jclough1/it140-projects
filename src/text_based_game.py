@@ -32,7 +32,7 @@ def main():
     """Run the main gameplay loop."""
     # TODO: Create the full room/item dictionary from your Project One map.
     rooms = {
-        "Study Room": {'west": "Kitchen", "north": "Living Room"}
+        "Study Room": {"west": "Kitchen", "north": "Living Room"}
     }
     current_room = "Study Room"
 
